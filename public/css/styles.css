@@ -1,0 +1,41 @@
+/*Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;*/
+
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* GLOBAL RESETS */
+*{font-family: 'Roboto', sans-serif;margin: 0; padding: 0;}
+header{background-color: #EAC926;}
+nav ul{list-style: none; padding-left: 0;}
+
+/* TYPOGRAPHY */
+body{font-size: 12px;}
+.section-title{font-size: 24px;}
+.price{font-size: 18px;}
+.discount{font-size: 16px;}
+.section-title{font-size: 16px;}
+
+/* BURGER MENU */
+.burger-menu{background-color: #03264C;width: fit-content;color: #EBEBEB;border: none; border-radius: 5px; margin: auto;font-size: 30px; padding: 10px 15px;}
+
+/* HERO SECTION */
+section.hero img{width: 100%;}
+
+/* OVERVIEW SECTION */
+main {background-color: #ebebeb}
+section.content h2{margin: 0 10%; font-size: 20px; padding: 5px 0;}
+section.content article{width: 80%;margin: 20px 10%; background-color: #FFFFFF; border-radius: 15px; text-align: center;}
+section.content article img{width: 50%;}
+
+/* FOOTER SECTION */
+footer {padding-bottom: 15px;}
+footer section {background-color: #FFFFFF; width: 95%; margin: 0 2.5%; border-radius: 15px; text-align: center;}
+footer article{text-align: center;padding: 30px 8%;}
+footer article i{font-size: 30px;color: #03264C;}
+footer article h3{font-size: 17px;}
+footer .copyright{padding-bottom: 10px;}
